@@ -1,0 +1,11 @@
+<h1>Top Stories</h1>
+
+<div class="stories">
+  <div class="story" ng-repeat="story in home.stories">
+    <h2><a ng-href="{{ story.data.url }}" target="_blank">{{ story.data.title }}</a></h2>
+    <p>
+      {{ story.data.score }} votes |
+      <a href="#{{ story.data.permalink }}">{{ story.data.num_comments }} comments</a>
+    </p>
+  </div>
+</div>

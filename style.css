@@ -1,0 +1,21 @@
+body {
+  font: normal small verdana,arial,helvetica,sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.story {
+  margin: 12px 0;
+}
+
+.story p, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.comment {
+  border-bottom: 1px solid #ccc;
+  padding: 4px 0;
+}
